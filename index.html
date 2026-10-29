@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Swim — школа плавания Ивана Ивановича Павлова</title>
+  <meta name="description" content="Apex Swim — школа плавания тренера Ивана Ивановича Павлова. Индивидуальные занятия для детей и взрослых, в том числе для детей с особенностями развития.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== ШАПКА ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <span class="logo__icon">
+          <svg viewBox="0 0 40 40" aria-hidden="true">
+            <path d="M20 4 L34 30 H6 Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M4 34 q4 -4 8 0 t8 0 t8 0 t8 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo__text">APEX<b>SWIM</b></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#coach">Тренер</a>
+        <a href="#for-whom">Для кого</a>
+        <a href="#programs">Программы</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a href="tel:+79267917353" class="btn btn--small header__phone">+7 (926) 791-73-53</a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== ГЛАВНЫЙ ЭКРАН ===================== -->
+  <section class="hero" id="top">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=2000&q=80"
+           alt="Пловец в бассейне" onerror="this.remove()">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="bubbles" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="container hero__content">
+      <p class="hero__tag reveal">Школа плавания</p>
+      <h1 class="hero__title reveal">
+        Достигни <span class="accent">вершины</span><br> в воде вместе с&nbsp;Apex&nbsp;Swim
+      </h1>
+      <p class="hero__text reveal">
+        Персональные тренировки с Иваном Ивановичем Павловым — тренером, который
+        научит плавать каждого. Детей и взрослых, новичков и спортсменов,
+        а также детей с особенностями развития.
+      </p>
+      <div class="hero__buttons reveal">
+        <a href="tel:+79267917353" class="btn">Записаться на занятие</a>
+        <a href="#coach" class="btn btn--ghost">Познакомиться с тренером</a>
+      </div>
+    </div>
+
+    <svg class="hero__wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,64 C240,120 480,0 720,48 C960,96 1200,16 1440,64 L1440,120 L0,120 Z"></path>
+    </svg>
+  </section>
+
+  <!-- ===================== ПРЕИМУЩЕСТВА ===================== -->
+  <section class="features">
+    <div class="container features__grid">
+      <div class="feature reveal">
+        <div class="feature__icon">🏆</div>
+        <h3>Профессиональный подход</h3>
+        <p>Техника всех стилей плавания: кроль, брасс, баттерфляй, на спине.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__icon">👤</div>
+        <h3>Только индивидуально</h3>
+        <p>Всё внимание тренера — вам. Программа под ваши цели и возможности.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__icon">💙</div>
+        <h3>Для всех без исключений</h3>
+        <p>Принимаем детей с аутизмом, синдромом Дауна и физическими особенностями.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__icon">🛟</div>
+        <h3>Безопасность прежде всего</h3>
+        <p>Спокойная обстановка, бережное отношение и постоянный контроль.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ТРЕНЕР ===================== -->
+  <section class="coach section" id="coach">
+    <div class="container coach__inner">
+      <div class="coach__photo reveal">
+        <!-- Замените картинку на настоящее фото Ивана Ивановича: положите файл в папку images
+             и поменяйте src на "images/ivan.jpg" -->
+        <img src="https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?auto=format&fit=crop&w=900&q=80"
+             alt="Тренер Иван Иванович Павлов" onerror="this.remove()">
+        <div class="coach__badge">
+          <b>№1</b>
+          <span>тренер<br>по плаванию</span>
+        </div>
+      </div>
+
+      <div class="coach__text">
+        <p class="section__tag reveal">Ваш тренер</p>
+        <h2 class="section__title reveal">Иван Иванович Павлов</h2>
+        <p class="coach__lead reveal">
+          Лучший тренер, которого можно пожелать себе или своему ребёнку.
+          Настоящий мастер своего дела, для которого плавание — это не работа, а призвание.
+        </p>
+        <p class="reveal">
+          Иван Иванович — единственный тренер школы Apex Swim, и именно поэтому каждый ученик
+          получает тренерский опыт высочайшего уровня. Он видит малейшие ошибки в технике,
+          знает, как объяснить сложное простыми словами, и умеет найти подход к любому человеку —
+          от испуганного малыша до взрослого спортсмена, готовящегося к соревнованиям.
+        </p>
+        <p class="reveal">
+          Но главное — его безграничное терпение и человечность. Иван Иванович с радостью
+          занимается с детьми с аутизмом, синдромом Дауна, ДЦП, с детьми без рук или ног.
+          Там, где другие говорят «невозможно», он говорит «давай попробуем» — и у его
+          учеников получается.
+        </p>
+
+        <ul class="coach__list reveal">
+          <li>Индивидуальная программа для каждого ученика</li>
+          <li>Постановка техники всех стилей плавания</li>
+          <li>Работа со страхом воды — мягко и без давления</li>
+          <li>Адаптивное плавание для детей с особенностями</li>
+          <li>Подготовка к соревнованиям и сдаче нормативов</li>
+        </ul>
+
+        <a href="tel:+79267917353" class="btn reveal">Позвонить Ивану Ивановичу</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ДЛЯ КОГО ===================== -->
+  <section class="for-whom section" id="for-whom">
+    <div class="container">
+      <p class="section__tag section__tag--center reveal">Для кого</p>
+      <h2 class="section__title section__title--center reveal">Вода принимает всех</h2>
+      <p class="section__subtitle reveal">
+        В Apex Swim нет «неподходящих» учеников. Иван Иванович найдёт подход к каждому.
+      </p>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__img">
+            <img src="https://images.unsplash.com/photo-1560090995-01632a28895b?auto=format&fit=crop&w=800&q=80"
+                 alt="Ребёнок учится плавать" onerror="this.remove()">
+          </div>
+          <div class="card__body">
+            <h3>Дети</h3>
+            <p>Учим держаться на воде, правильно дышать и уверенно плавать. Через игру, с улыбкой и без страха.</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__img">
+            <img src="https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=800&q=80"
+                 alt="Взрослый пловец" onerror="this.remove()">
+          </div>
+          <div class="card__body">
+            <h3>Взрослые</h3>
+            <p>Никогда не поздно научиться. Освоите плавание с нуля или улучшите технику и выносливость.</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__img">
+            <img src="https://images.unsplash.com/photo-1622629797619-c100e3e67e2e?auto=format&fit=crop&w=800&q=80"
+                 alt="Спортивное плавание" onerror="this.remove()">
+          </div>
+          <div class="card__body">
+            <h3>Спортсмены</h3>
+            <p>Профессиональная подготовка к соревнованиям, разбор техники, работа на результат.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="special reveal">
+        <div class="special__icon">💙</div>
+        <div>
+          <h3>Особенные дети — особая забота</h3>
+          <p>
+            Иван Иванович принимает детей с аутизмом (РАС), синдромом Дауна, ДЦП, задержкой развития,
+            а также детей с ампутациями и врождённым отсутствием рук или ног. Вода — лучшая
+            среда для развития: она снимает напряжение, укрепляет мышцы, улучшает координацию
+            и дарит ребёнку чувство свободы и уверенности в себе. Каждое занятие строится
+            с учётом особенностей ребёнка, в спокойном темпе и с огромным уважением.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ПРОГРАММЫ ===================== -->
+  <section class="programs section" id="programs">
+    <div class="container">
+      <p class="section__tag section__tag--center reveal">Программы</p>
+      <h2 class="section__title section__title--center reveal">Выберите свой путь</h2>
+
+      <div class="programs__grid">
+        <div class="program reveal">
+          <span class="program__num">01</span>
+          <h3>Первые шаги</h3>
+          <p>Знакомство с водой, преодоление страха, умение держаться на воде и дышать.</p>
+        </div>
+        <div class="program reveal">
+          <span class="program__num">02</span>
+          <h3>Техника</h3>
+          <p>Постановка правильной техники кроля, брасса, баттерфляя и плавания на спине.</p>
+        </div>
+        <div class="program reveal">
+          <span class="program__num">03</span>
+          <h3>Адаптивное плавание</h3>
+          <p>Занятия для детей с особенностями развития и физическими ограничениями.</p>
+        </div>
+        <div class="program reveal">
+          <span class="program__num">04</span>
+          <h3>Спорт</h3>
+          <p>Подготовка к соревнованиям, развитие скорости, выносливости и стартов.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ЦИТАТА ===================== -->
+  <section class="quote">
+    <div class="quote__bg">
+      <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=2000&q=80"
+           alt="" onerror="this.remove()">
+    </div>
+    <div class="container quote__inner reveal">
+      <blockquote>
+        «Плавать может научиться каждый. Нужно только поверить в ученика —
+        и тогда он сам в себя поверит».
+      </blockquote>
+      <cite>— Иван Иванович Павлов</cite>
+    </div>
+  </section>
+
+  <!-- ===================== ГАЛЕРЕЯ ===================== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <p class="section__tag section__tag--center reveal">Галерея</p>
+      <h2 class="section__title section__title--center reveal">Атмосфера Apex Swim</h2>
+
+      <div class="gallery__grid">
+        <a class="gallery__item gallery__item--big reveal" href="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=900&q=80" alt="Пловец кролем" onerror="this.remove()">
+        </a>
+        <a class="gallery__item reveal" href="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?auto=format&fit=crop&w=700&q=80" alt="Под водой" onerror="this.remove()">
+        </a>
+        <a class="gallery__item reveal" href="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=700&q=80" alt="Бассейн" onerror="this.remove()">
+        </a>
+        <a class="gallery__item reveal" href="https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=700&q=80" alt="Дорожки бассейна" onerror="this.remove()">
+        </a>
+        <a class="gallery__item reveal" href="https://images.unsplash.com/photo-1622629797619-c100e3e67e2e?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1622629797619-c100e3e67e2e?auto=format&fit=crop&w=700&q=80" alt="Тренировка" onerror="this.remove()">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== КОНТАКТЫ ===================== -->
+  <section class="contacts section" id="contacts">
+    <div class="container contacts__inner">
+      <div class="contacts__info">
+        <p class="section__tag reveal">Контакты</p>
+        <h2 class="section__title reveal">Запишитесь на первое занятие</h2>
+        <p class="reveal">Позвоните Ивану Ивановичу — он ответит на все вопросы и подберёт удобное время.</p>
+
+        <div class="contact reveal">
+          <div class="contact__icon">📞</div>
+          <div>
+            <span>Телефон</span>
+            <a href="tel:+79267917353">+7 (926) 791-73-53</a>
+          </div>
+        </div>
+
+        <div class="contact reveal">
+          <div class="contact__icon">📍</div>
+          <div>
+            <span>Адрес</span>
+            <!-- АДРЕС: замените текст ниже на настоящий адрес бассейна -->
+            <p class="js-address">г. Москва, ул. Примерная, д. 1</p>
+          </div>
+        </div>
+
+        <div class="contact reveal">
+          <div class="contact__icon">👤</div>
+          <div>
+            <span>Тренер</span>
+            <p>Павлов Иван Иванович</p>
+          </div>
+        </div>
+
+        <div class="contacts__buttons reveal">
+          <a href="tel:+79267917353" class="btn">Позвонить</a>
+          <a href="#" class="btn btn--outline js-yandex-link" target="_blank" rel="noopener">Открыть в Яндекс.Картах</a>
+        </div>
+      </div>
+
+      <div class="contacts__map reveal">
+        <!-- Карта строится автоматически по адресу (см. js/main.js) -->
+        <iframe class="js-yandex-map" title="Карта: Apex Swim" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ПОДВАЛ ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="logo logo--footer">
+        <span class="logo__text">APEX<b>SWIM</b></span>
+      </a>
+      <p>Школа плавания Ивана Ивановича Павлова</p>
+      <a href="tel:+79267917353">+7 (926) 791-73-53</a>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Apex Swim. Все права защищены.</p>
+  </footer>
+
+  <!-- Просмотр фото из галереи -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Закрыть">×</button>
+    <img src="" alt="">
+  </div>
+
+  <a href="tel:+79267917353" class="call-fab" aria-label="Позвонить">📞</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
